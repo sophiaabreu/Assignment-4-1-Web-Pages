@@ -1,0 +1,67 @@
+body{
+    margin: 20px;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Same color palette as the background*/
+h1{
+    color: rgb(118, 17, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+    color:brown;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+/*Add shading to subtitles for highlighting*/
+h3{
+    color: rgb(219, 50, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align:left;
+    margin-left: 60px;
+    text-shadow: 2px 2px 5px rgb(242, 198, 198);
+}
+
+h4{
+    color: rgb(219, 50, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align:left;
+    margin-left: 60px;
+    text-shadow: 2px 2px 5px rgb(242, 198, 198);
+}
+/*These are the lists*/
+ul{
+    font-size: 23px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* this is a custom class - custom class start with a .
+use this to create a semi transparent box so it is easier to read the text*/
+.content{
+    background-color: rgba(158, 103, 103, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+/*Explanation image adjustment*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
